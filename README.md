@@ -26,3 +26,7 @@ GOOGLE_CLOUD_PROJECT_ID={GCP のプロジェクト ID}
 GOOGLE_CLOUD_KEY_FILE={サービスアカウントのキーファイルへのパス}
 GOOGLE_CLOUD_STORAGE_BUCKET={GCS のバケット名}
 ```
+
+### 設定の記述があるところ
+
+`config/filesystems.php` の `gcs_public` のところ
